@@ -59,18 +59,6 @@ void main(void)
 
 ### Exercice 3
 
-1. Concevez un programme avec un main, une classe de type service et deux classes de type composant. Visez la simplicité.
-
-2. Modélisez votre programme à l'aide de diagrammes de classes, de séquence et d’activité.
-
-3. Échangez vos modélisations avec un pair et tentez de coder le programme basé sur les diagrammes reçus.
-
-4. Comparez le code résultant avec celui de votre pair et discutez des différences ou problèmes éventuels.
-
-5. Utilisez les modélisations et les différences observées comme base pour des explications plus approfondies.
-
-### Exercice 4
-
 1. Définissez la classe Fraction et ses méthodes pour réaliser les opérations d'addition, de soustraction, de multiplication et de division.
 
 2. Créez :
