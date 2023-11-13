@@ -129,4 +129,3 @@ Projet créé avec succès !
 3. [POO C++ (Avec Exemples) - Programiz](https://www.programiz.com/cpp-programming/) - Ici, vous pouvez trouver des exemples de programmation orientée objet en C++, qui utilise des objets pour modéliser des problèmes du monde réel, avec des objets ayant des attributs et des comportements.
 4. [Concepts de la Programmation Orientée Objet (POO) en C++ - Simplilearn](https://www.simplilearn.com/tutorials/cpp-tutorial/) - Ce tutoriel couvre l'approche de structuration des programmes autour des objets plutôt que des fonctions et de la logique, ce qui aide à rendre le code plus flexible et modulaire.
 5. [Orienté Objet C++ - Tutorialspoint](https://www.tutorialspoint.com/cplusplus/cpp_object_oriented.htm) - Cette bibliothèque de tutoriels en ligne discute des principaux concepts de la programmation orientée objet, y compris la définition des objets et des classes, qui forment la base de la POO en C++.
-
