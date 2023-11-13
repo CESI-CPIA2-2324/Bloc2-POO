@@ -92,7 +92,7 @@ Description du projet : Développement d'un système de suivi de projets en C++
 Projet créé avec succès !
 ```
 
-## Étapes et Exercices
+## Les étapes du projet
 
 1. **Classe Projet**
 
@@ -121,3 +121,12 @@ Projet créé avec succès !
 
    - Utilisez le framework de test CppUnit pour écrire des tests unitaires pour les classes `Projet`, `Tâche`, et `Membre`.
    - Assure la couverture de tous les cas de test importants pour valider la logique de ces classes.
+
+## Ressources
+
+1. [Programmation Orientée Objet en C++ - GeeksforGeeks](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/) - Cette ressource explique le concept de classes en C++, qui sont les blocs de construction de la programmation orientée objet et agissent comme des plans pour créer des objets avec des membres de données et des fonctions membres.
+2. [OOP C++ (Programmation Orientée Objet) - W3Schools](https://www.w3schools.com/cpp/cpp_oop.asp) - Cette page donne un aperçu de la POO en C++, mettant en évidence le passage de la programmation procédurale à la programmation orientée objet et détaillant les avantages de l'utilisation d'objets contenant à la fois des données et des fonctions.
+3. [POO C++ (Avec Exemples) - Programiz](https://www.programiz.com/cpp-programming/oops-concepts) - Ici, vous pouvez trouver des exemples de programmation orientée objet en C++, qui utilise des objets pour modéliser des problèmes du monde réel, avec des objets ayant des attributs et des comportements.
+4. [Concepts de la Programmation Orientée Objet (POO) en C++ - Simplilearn](https://www.simplilearn.com/tutorials/cpp-tutorial/object-oriented-programming-in-cpp) - Ce tutoriel couvre l'approche de structuration des programmes autour des objets plutôt que des fonctions et de la logique, ce qui aide à rendre le code plus flexible et modulaire.
+5. [Orienté Objet C++ - Tutorialspoint](https://www.tutorialspoint.com/cplusplus/cpp_object_oriented.htm) - Cette bibliothèque de tutoriels en ligne discute des principaux concepts de la programmation orientée objet, y compris la définition des objets et des classes, qui forment la base de la POO en C++.
+
