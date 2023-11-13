@@ -173,6 +173,8 @@ Créer une application de calculatrice simple avec une interface graphique Qt.
 
 - Implémenter la logique de la calculatrice: Vous écririez la logique nécessaire pour effectuer des calculs de base comme l'addition, la soustraction, la multiplication et la division.
 
+- Compiler et exécuter: Vous compileriez votre application et l'exécuteriez pour voir votre calculatrice en action.
+
 ### Squelette de Base
 
 Voici le code de base pour une application de calculatrice simple :
