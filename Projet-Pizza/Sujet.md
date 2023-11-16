@@ -63,5 +63,12 @@ Dans ce système, les utilisateurs peuvent créer des commandes de pizza, ajoute
 - Compiler/IDE pour le C++ (comme Visual Studio, CLion, etc.)
 - Documentation C++ pour référence.
 
+---
 
+## Pour aller plus loin
 
+- Ajoutez des fonctionnalités supplémentaires à votre système, comme la possibilité de supprimer des pizzas ou des garnitures, de modifier des pizzas ou des garnitures, de modifier la taille d'une pizza, etc.
+- Ajoutez une fonctionnalité de sauvegarde et de chargement qui permettra aux utilisateurs de sauvegarder leurs commandes dans un fichier et de les charger plus tard.
+- Ajoutez une fonctionnalité de paiement qui permettra aux utilisateurs de payer pour leur commande.
+- Connecter votre système à une base de données pour stocker les commandes des utilisateurs.
+- Faire le lien entre le projet Banque et le projet Pizzeria pour permettre aux utilisateurs de payer leurs commandes en mettant à jour leur solde bancaire.
