@@ -104,9 +104,7 @@ int main() {
     int x = 10, y = 5;
 
     // Pointeur vers une fonction 'add'
-    void (*op_ptr)(int,
-
- int) = &add;
+    void (*op_ptr)(int,int) = &add;
     operation(x, y, op_ptr);
 
     // Pointeur vers une fonction 'subtract'
