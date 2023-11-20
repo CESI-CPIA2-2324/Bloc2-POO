@@ -1,19 +1,37 @@
-# Prosit 4 - Workshop
+# Workshop 4
 
 ## Exercice 1
 
-Créez un tableau statique de trois entiers, remplissez-le et affichez son contenu. Ensuite, réfléchissez à comment la mémoire est organisée par rapport à ce tableau et comment le compilateur gère l'instruction tab[2] = 30. Pensez à l'utilité d'un tel tableau lorsque la taille est fixe et la mémoire allouée lors de la compilation.
+- Créez un tableau de 3 entiers, remplissez-le, affichez le contenu.
 
-Ensuite, travaillez avec un tableau dynamique de trois entiers. Remplissez-le et affichez-le aussi. Pensez à la gestion de la mémoire et à l'interprétation de tab[2] = 30 par le compilateur dans ce contexte. Réfléchissez aux avantages de l'allocation dynamique, notamment quand la taille du tableau n'est pas connue à l'avance.
+- Réalisez un schéma pour représenter la mémoire vis-à-vis du code source que vous avez créé.
 
-Pour finir, envisagez comment gérer des emplacements mémoire discontinus avec une boucle. Développez et utilisez un programme qui résout ce problème.
+- Comment le compilateur interprète-t-il tab[2] = 30 ?
+
+- Proposez des explications sur la notion d’offset et d’arithmétique. Dans quel cas est-il utile d’utiliser ce genre de tableau ?
+
+- Créez un tableau dynamique de 3 entiers, remplissez-le, affichez le contenu
+
+- Réalisez un schéma pour représenter la mémoire vis-à-vis du code source que vous avez créé.  
+
+- Comment le compilateur interprète-t-il tab[2] = 30 ?
+
+- Dans quel cas est-il utile d’utiliser ce genre de tableau ?
+
+- Un tableau réserve un emplacement contigu en mémoire au moment de la compilation, il est donc facilement utilisable avec une boucle for et son arithmétique, puisque les blocs mémoires sont contigus. Un tableau dynamique réserve aussi un emplacement contigu en mémoire au moment de l’exécution, il est donc facilement utilisable avec une boucle for et son arithmétique, puisque les blocs mémoires sont contigus. Comment gérer avec une boucle des emplacements discontinus en mémoire ? Codez et utilisez un programme qui répond à cette problématique.  
 
 ## Exercice 2
 
-Utilisez les classes Objet2D, Cube, et Rectangle pour créer une liste chaînée unidirectionnelle sans information sur sa taille. Ajoutez un membre privé Suivant à la classe Objet2D et les accesseurs nécessaires. Votre liste chaînée doit pouvoir gérer un nombre indéterminé d'objets Rectangle et Cube. Implémentez des méthodes pour ajouter et supprimer des objets de cette liste et une méthode afficherInfos() pour afficher les informations de tous les objets.
+- Réutilisez les classes Objet2D, Cube, Rectangle du Workshop précédent.
 
-Créez des objets et ajoutez-les à votre liste dans la fonction principale (main). Utilisez les méthodes sans spécifier la taille de la liste, mais plutôt en utilisant une condition d'arrêt. Pensez également à la gestion de la mémoire et à la manière de libérer la mémoire allouée par votre programme.
+- Modifiez la classe Objet2D en ajoutant un membre privé Suivant qui est un pointeur vers Objet2D, ajoutez également les accesseurs pour ce membre.
+
+- Créez une classe listeObjets2D de stockage d’Objet2D comme une liste chainée unidirectionnelle avec Head et Tail étant des pointeurs vers la tête et la queue de la chaine et sans information sur la taille. Cette classe de stockage va gérer un nombre indéterminé d’objets de type Rectangle et/ou de type Cube. La classe de stockage doit disposer d’une méthode ajouter (AtHead, AtTail, AtIndex), ainsi les méthodes correspondantes pour supprimer un élément. Modifier la méthode afficherInfos() qui appellera la méthode afficheInfo() de tous les objets stockés à l’aide d’une boucle while.
+
+- Créez des objets dans le main, ajoutez-les à la classe de stockage et appelez les méthodes des objets stockés, sans demander la taille mais plutôt une condition d’arrêt.
+
+- Réfléchissez à la gestion de la mémoire. Comment libérer de la mémoire dans leurs programmes ? Qu’advient-il des objets internes de la classe de stockage ? Faites des schémas pour expliquer. Construisez un destructeur qui préviendra des fuites de mémoires. Que va faire le destructeur si la classe de stockage utilise les références des objets ? Si un destructeur de la classe de stockage est utilisé, est-il alors nécessaire de supprimer les objets stockés un à un dans le main ?
 
 ## Exercice 3
 
-Imaginez une situation où une classe A doit envoyer des messages personnalisés à différentes instances d'une classe B, sans pouvoir manipuler directement ces instances ni connaître leur nombre. La classe A connaît la signature de la méthode à appeler de la classe B, mais il y a plusieurs méthodes avec la même signature et A ne sait pas à l'avance laquelle appeler. Concevez un code qui permet de résoudre ce scénario.
+Une classe A souhaite envoyer des messages personnalisés aux différentes instances d’une classe B. Par soucis d’économie de mémoire, elle ne peut pas manipuler directement les différentes instances, de toutes façon, elle ne peut pas savoir combien il y en aura. La classe A connait la signature de la méthode à appeler de la classe B, mais la classe B comporte plusieurs méthodes avec la même signature. La classe A ne peut pas connaitre à l’avance la méthode à appeler. Codez la solution que vous proposez pour résoudre cette problématique.  
