@@ -114,3 +114,42 @@ int main() {
     return 0;
 }
 ```
+
+## Exercice d'application : Tri de Tableau avec Pointeurs de Fonction
+
+
+Vous devez écrire un programme en C++ qui triera un tableau d'entiers en utilisant un pointeur de fonction pour la comparaison. L'objectif de cet exercice est de pratiquer l'utilisation des pointeurs de fonction et de comprendre comment ils peuvent être utilisés pour créer des fonctions plus génériques et réutilisables.
+
+**Consignes:**
+
+1. Créez une fonction `sort` qui prend les paramètres suivants :
+   - Un tableau d'entiers `arr[]`.
+   - La taille du tableau `size`.
+   - Un pointeur de fonction `compare` qui prend deux entiers en paramètres et retourne un booléen.
+
+2. La fonction `sort` doit trier le tableau `arr[]` en utilisant la fonction pointée par `compare` pour déterminer l'ordre de tri.
+
+3. Écrivez deux fonctions de comparaison :
+   - `ascending(int a, int b)` qui retourne `true` si `a` est inférieur à `b`.
+   - `descending(int a, int b)` qui retourne `true` si `a` est supérieur à `b`.
+
+4. Dans la fonction `main`, créez un tableau d'entiers et utilisez la fonction `sort` pour le trier en ordre ascendant et en ordre descendant, en passant respectivement les pointeurs vers `ascending` et `descending`.
+
+5. Affichez le tableau avant et après le tri pour chaque cas pour vérifier que votre fonction `sort` fonctionne correctement.
+
+**Exemple de signature de la fonction `sort`:**
+
+```cpp
+void sort(int arr[], int size, bool (*compare)(int, int));
+```
+
+**Critères de réussite:**
+
+- Le programme doit compiler sans erreurs ni avertissements.
+- Le tableau doit être affiché correctement avant et après le tri.
+- Le tri doit fonctionner correctement en ordre ascendant et en ordre descendant.
+
+**Bonus:**
+
+- Gérez les cas d'erreur, par exemple un tableau vide ou un pointeur de fonction `nullptr`.
+- Ajoutez une fonctionnalité qui permet à l'utilisateur de choisir le type de tri au lancement du programme.
