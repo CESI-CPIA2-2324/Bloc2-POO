@@ -1,0 +1,13 @@
+# Save the code
+
+J'ai un ami qui exerce la profession de photographe. Il gère sur son ordinateur des quantités de dossiers pour des quantités de photographies, qu'il doit organiser, déplacer, supprimer, etc. Pour se faciliter la tâche, il a développé une application graphique en VC++/CLi. Cette application, propose plusieurs fonctionnalités concernant la gestion de fichiers images : copier, copier et supprimer et supprimer.
+
+L'application donne la possibilité de visionner les images d'un dossier avant traitement. Une fois sélectionnées, les photographies contenues dans le dossier peuvent être visionnées dans l'application, histoire de s'assurer que mon ami va travailler sur les bons fichiers. Il peut visionner les photographies en les parcourant de manière séquentielle (avant ou arrière), ou accéder directement à la toute première, ou la toute dernière. Cette partie « visionnage » lui permet donc d'être certain des photographies qu'il va traiter.
+
+La fonctionnalité « copier » va copier les images sélectionnées d'un dossier à un autre. La fonctionnalité « copier et effacer » va copier les images sélectionnées d'un dossier à un autre et ensuite, elle va effacer les images du dossier source. La fonctionnalité « effacer » va supprimer les images du dossier source.
+
+Très heureux de son application, il m'a fait parvenir le fichier source (l'original...mais j'aurais l'occasion d'y revenir très rapidement (soupir de désarrois...)), pour que j'y jette un œil pour corriger deux ou trois bugs.
+
+J'ai donc réceptionné son fichier, je l'ai ouvert, j'ai commencé à observer son code quelques instants et j'ai alors décidé d'aller me chercher un café...
+
+En revenant de la cuisine avec le précieux breuvage, j'ai alors découvert que mon chat avait eu, en mon absence, la soudaine envie de sauter à pattes jointes sur le clavier de l'ordinateur. Bien sûr, j'ai essayé en premier lieu d'utiliser le « contrôle Z ». Rien à faire. Le problème c'est que je n'ai jamais codé une application graphique et bon nombre de notions me sont inconnues. Je ne peux pas appeler mon ami pour lui dire que j'ai explosé son code source et que je suis incapable de rétablir la situation. Il est photographe, moi étudiant en école d'ingénieurs en informatique... trop la honte de lui demander de l'aide. Me voilà dans une situation tout à fait problématique. Il faut tout de même que je remette en état de marche son programme. Je songe à étudier dans l'immédiat, les particules de codes que je ne connais pas.
