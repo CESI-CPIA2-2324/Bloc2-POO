@@ -1,0 +1,2 @@
+turn off pre-compiled headers : 
+https://stackoverflow.com/questions/54101922/how-do-i-fix-unexpected-end-of-file-error-with-pch-h
